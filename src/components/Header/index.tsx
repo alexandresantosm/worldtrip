@@ -26,7 +26,7 @@ export function Header() {
           alt="Avião voando sobre o nome da marca World Trip."
           justifySelf="center"
           gridColumn="2"
-          w={["81px", "100px"]}
+          w={["81px", "184px"]}
         />
       </Grid>
     </Flex>

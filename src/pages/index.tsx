@@ -1,5 +1,7 @@
 import { Flex } from '@chakra-ui/react';
 import React from 'react';
+
+import { Banner } from '../components/Banner';
 import { Header } from '../components/Header';
 
 export default function Home() {
@@ -8,6 +10,7 @@ export default function Home() {
       direction="column"
     >
       <Header />
+      <Banner />
     </Flex>
   );
 }
