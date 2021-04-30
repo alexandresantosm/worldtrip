@@ -5,6 +5,7 @@ import { Banner } from '../components/Banner';
 import { Header } from '../components/Header';
 import { ListTravelTypes } from '../components/ListTravelTypes';
 import { Separator } from '../components/Separator';
+import { Slider } from '../components/Slider';
 
 export default function Home() {
   return (
@@ -12,9 +13,13 @@ export default function Home() {
       direction="column"
     >
       <Header />
+
       <Banner />
+
       <ListTravelTypes />
+
       <Separator />
+
       <Heading
         textAlign="center"
         fontWeight="500"
@@ -25,6 +30,8 @@ export default function Home() {
         Vamos nessa?<br />
         Então escolha seu continente
       </Heading>
+      
+      <Slider />
     </Flex>
   );
 }
