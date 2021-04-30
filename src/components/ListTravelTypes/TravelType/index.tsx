@@ -38,6 +38,7 @@ export function TravelType({ icon, text }: TravelTypeProps) {
         color="gray.700"
         fontWeight="600"
         fontSize={["md", "xl", "2xl"]}
+        lineHeight={["27px", "36px"]}
       >
         {text}
       </Text>

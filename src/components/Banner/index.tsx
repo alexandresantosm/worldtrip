@@ -22,6 +22,7 @@ export function Banner() {
             color="gray.100"
             fontWeight="500"
             fontSize={["xl", "2l", "2xl", "2xl", "4xl"]}
+            lineHeight={["30px", "54px"]}
           >
             5 Continentes,<br />
             infinitas possibilidades.
@@ -32,6 +33,7 @@ export function Banner() {
             fontSize={["0.8rem", 'xl']}
             mt="5"
             maxWidth={["100%", "100%", "100%", "550px"]}
+            lineHeight={["21px", "30px"]}
           >
             Chegou a hora de tirar do papel a viagem que você sempre sonhou.
           </Text>
