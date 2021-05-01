@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Flex, Heading, Text } from "@chakra-ui/layout";
+import { Flex, Heading, Text } from "@chakra-ui/react";
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -34,19 +34,19 @@ export function Slider() {
             textAlign="center"
             bgPosition="center"
           >
-            <Link href="/">
+            <Link href="/continent">
               <a>
                 <Heading
                   color="gray.100"
                   fontSize={["3xl", "4xl", "5xl"]}
-                  fontWeight="bold"
+                  fontWeight={[700, 600]}
                 >
                   América do Norte
                 </Heading>
                 <Text
                   color="gray.300"
                   fontSize={["0.8rem", "1xl", "2xl"]}
-                  fontWeight="bold"
+                  fontWeight={[700, 600]}
                   mt={["2", "4"]}
                 >
                   O sonho de consumo de grande parte da população.
@@ -68,19 +68,19 @@ export function Slider() {
             textAlign="center"
             bgPosition="center"
           >
-            <Link href="/">
+            <Link href="/continent">
               <a>
                 <Heading
                   color="gray.100"
                   fontSize={["3xl", "4xl", "5xl"]}
-                  fontWeight="bold"
+                  fontWeight={[700, 600]}
                 >
                   América do Sul
                 </Heading>
                 <Text
                   color="gray.300"
                   fontSize={["0.8rem", "1xl", "2xl"]}
-                  fontWeight="bold"
+                  fontWeight={[700, 600]}
                   mt={["2", "4"]}
                 >
                   O continente com grande diversidade de clima e relevo.
@@ -102,19 +102,19 @@ export function Slider() {
             textAlign="center"
             bgPosition="center"
           >
-            <Link href="/">
+            <Link href="/continent">
               <a>
                 <Heading
                   color="gray.100"
                   fontSize={["3xl", "4xl", "5xl"]}
-                  fontWeight="bold"
+                  fontWeight={[700, 600]}
                 >
                   Ásia
                 </Heading>
                 <Text
                   color="gray.300"
                   fontSize={["0.8rem", "1xl", "2xl"]}
-                  fontWeight="bold"
+                  fontWeight={[700, 600]}
                   mt={["2", "4"]}
                 >
                   O maior continente, tanto em área como em população.
@@ -136,19 +136,19 @@ export function Slider() {
             textAlign="center"
             bgPosition="center"
           >
-            <Link href="/">
+            <Link href="/continent">
               <a>
                 <Heading
                   color="gray.100"
                   fontSize={["3xl", "4xl", "5xl"]}
-                  fontWeight="bold"
+                  fontWeight={[700, 600]}
                 >
                   África
                 </Heading>
                 <Text
                   color="gray.300"
                   fontSize={["0.8rem", "1xl", "2xl"]}
-                  fontWeight="bold"
+                  fontWeight={[700, 600]}
                   mt={["2", "4"]}
                 >
                   O continente com maior diversidade cultural do planeta.
@@ -170,19 +170,19 @@ export function Slider() {
             textAlign="center"
             bgPosition="center"
           >
-            <Link href="/">
+            <Link href="/continent">
               <a>
                 <Heading
                   color="gray.100"
                   fontSize={["3xl", "4xl", "5xl"]}
-                  fontWeight="bold"
+                  fontWeight={[700, 600]}
                 >
                   Europa
                 </Heading>
                 <Text
                   color="gray.300"
                   fontSize={["0.8rem", "1xl", "2xl"]}
-                  fontWeight="bold"
+                  fontWeight={[700, 600]}
                   mt={["2", "4"]}
                 >
                   O continente mais antigo.
@@ -204,19 +204,19 @@ export function Slider() {
             textAlign="center"
             bgPosition="center"
           >
-            <Link href="/">
+            <Link href="/continent">
               <a>
                 <Heading
                   color="gray.100"
                   fontSize={["3xl", "4xl", "5xl"]}
-                  fontWeight="bold"
+                  fontWeight={[700, 600]}
                 >
                   Oceania
                 </Heading>
                 <Text
                   color="gray.300"
                   fontSize={["0.8rem", "1xl", "2xl"]}
-                  fontWeight="bold"
+                  fontWeight={[700, 600]}
                   mt={["2", "4"]}
                 >
                   O continente formado por um conjunto de ilhas.
